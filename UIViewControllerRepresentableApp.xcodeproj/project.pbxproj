@@ -16,6 +16,12 @@
 		9B52D4372AC19AB80031C67A /* UIViewControllerRepresentableAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B52D4362AC19AB80031C67A /* UIViewControllerRepresentableAppTests.swift */; };
 		9B52D4412AC19AB80031C67A /* UIViewControllerRepresentableAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B52D4402AC19AB80031C67A /* UIViewControllerRepresentableAppUITests.swift */; };
 		9B52D4432AC19AB80031C67A /* UIViewControllerRepresentableAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B52D4422AC19AB80031C67A /* UIViewControllerRepresentableAppUITestsLaunchTests.swift */; };
+		9B52D4502AC19ACF0031C67A /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B52D44F2AC19ACF0031C67A /* PreviewViewController.swift */; };
+		9B52D4512AC19ACF0031C67A /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B52D44F2AC19ACF0031C67A /* PreviewViewController.swift */; };
+		9B52D4522AC19ACF0031C67A /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B52D44F2AC19ACF0031C67A /* PreviewViewController.swift */; };
+		9B52D4582AC1A0870031C67A /* BubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B52D4572AC1A0870031C67A /* BubbleView.swift */; };
+		9B52D4592AC1A0870031C67A /* BubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B52D4572AC1A0870031C67A /* BubbleView.swift */; };
+		9B52D45A2AC1A0870031C67A /* BubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B52D4572AC1A0870031C67A /* BubbleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,8 @@
 		9B52D43C2AC19AB80031C67A /* UIViewControllerRepresentableAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIViewControllerRepresentableAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B52D4402AC19AB80031C67A /* UIViewControllerRepresentableAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerRepresentableAppUITests.swift; sourceTree = "<group>"; };
 		9B52D4422AC19AB80031C67A /* UIViewControllerRepresentableAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerRepresentableAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9B52D44F2AC19ACF0031C67A /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		9B52D4572AC1A0870031C67A /* BubbleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BubbleView.swift; path = "../../株式会社クルージュ_Touch/tauch/tauch-ios/Tauch/Custom/BubbleView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +110,8 @@
 				9B52D41F2AC19AB70031C67A /* AppDelegate.swift */,
 				9B52D4212AC19AB70031C67A /* SceneDelegate.swift */,
 				9B52D4232AC19AB70031C67A /* ViewController.swift */,
+				9B52D44F2AC19ACF0031C67A /* PreviewViewController.swift */,
+				9B52D4572AC1A0870031C67A /* BubbleView.swift */,
 				9B52D4252AC19AB70031C67A /* Main.storyboard */,
 				9B52D4282AC19AB80031C67A /* Assets.xcassets */,
 				9B52D42A2AC19AB80031C67A /* LaunchScreen.storyboard */,
@@ -258,9 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B52D4582AC1A0870031C67A /* BubbleView.swift in Sources */,
 				9B52D4242AC19AB70031C67A /* ViewController.swift in Sources */,
 				9B52D4202AC19AB70031C67A /* AppDelegate.swift in Sources */,
 				9B52D4222AC19AB70031C67A /* SceneDelegate.swift in Sources */,
+				9B52D4502AC19ACF0031C67A /* PreviewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +280,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B52D4592AC1A0870031C67A /* BubbleView.swift in Sources */,
 				9B52D4372AC19AB80031C67A /* UIViewControllerRepresentableAppTests.swift in Sources */,
+				9B52D4512AC19ACF0031C67A /* PreviewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +292,8 @@
 			files = (
 				9B52D4432AC19AB80031C67A /* UIViewControllerRepresentableAppUITestsLaunchTests.swift in Sources */,
 				9B52D4412AC19AB80031C67A /* UIViewControllerRepresentableAppUITests.swift in Sources */,
+				9B52D45A2AC1A0870031C67A /* BubbleView.swift in Sources */,
+				9B52D4522AC19ACF0031C67A /* PreviewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
